@@ -1,0 +1,4 @@
+service: metabase
+runtime: custom
+env: flex
+# TODO: データの永続化をしておかないとデプロイしなおしたタイミングでデータが消えてしまう

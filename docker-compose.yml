@@ -1,0 +1,8 @@
+# ローカル起動用
+version: "3"
+services:
+  metabase:
+    container_name: metabase
+    build: .
+    ports:
+      - "3000:3000"
